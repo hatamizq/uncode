@@ -6,14 +6,11 @@ export function Header() {
 	return (
 		<header>
 			<nav>
-				<a href="/uncode" class={url == '/' && 'active'}>
+				<a href="/" class={url == '/' && 'active'}>
 					Home
 				</a>
-				<a href="/uncode/text" class={url == '/text' && 'active'}>
+				<a href="/text" class={url == '/text' && 'active'}>
 					Base64encode
-				</a>
-				<a href="/uncode/404" class={url == '/404' && 'active'}>
-					404
 				</a>
 			</nav>
 		</header>
