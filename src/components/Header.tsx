@@ -6,10 +6,10 @@ export function Header() {
 	return (
 		<header>
 			<nav>
-				<a href="/" class={url == '/' && 'active'}>
+				<a href="/uncode" class={url == '/uncode' && 'active'}>
 					Home
 				</a>
-				<a href="/text" class={url == '/text' && 'active'}>
+				<a href="/uncode/text" class={url == '/uncode/text' && 'active'}>
 					Base64encode
 				</a>
 			</nav>
