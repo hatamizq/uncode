@@ -1,21 +1,14 @@
 import { LocationProvider, Router, Route, hydrate, prerender as ssr } from 'preact-iso';
 
-import { Header } from './components/Header.js';
-import { Home } from './pages/Home/index.js';
-import { NotFound } from './pages/_404.js';
-import './style.css';
-
-import { Base64TextView } from './views/base64text.js';
+import Home from './views/home';
 
 export function App() {
 	return (
 		<LocationProvider>
-			<Header />
 			<main>
 				<Router>
 					<Route path="/" component={Home} />
-					<Route path="/text" component={Base64TextView} />
-					<Route default component={NotFound} />
+					<Route default component={Home} />
 				</Router>
 			</main>
 		</LocationProvider>

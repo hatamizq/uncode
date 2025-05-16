@@ -1,6 +1,6 @@
-import { IBase64TextViewModel } from "./Ibase64text";
+import { IBase64TextModel } from "./Ibase64text";
 
-export function useBase64TextViewModel(): IBase64TextViewModel {
+export function useBase64TextModel(): IBase64TextModel {
     const encode = (base: string): string => {
         try {
             const bytes = new TextEncoder().encode(base);
