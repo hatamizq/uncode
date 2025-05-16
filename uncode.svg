@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular background -->
+  <circle cx="32" cy="32" r="32" fill="#ffffff"></circle>
+
+  <!-- Left Arrow -->
+  <path d="M12 32H30" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+  <path d="M16 26L12 32L16 38" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Right Arrow -->
+  <path d="M52 32H34" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+  <path d="M48 26L52 32L48 38" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Enlarged X in center -->
+  <path d="M24 24L40 40" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+  <path d="M40 24L24 40" stroke="#000000" stroke-width="3" stroke-linecap="round"></path>
+</svg>
